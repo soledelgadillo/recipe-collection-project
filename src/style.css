@@ -1,0 +1,31 @@
+:root {
+  --primary-font: "Nunito", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --primary-color: #662eed;
+  --accent-color: #272142;
+}
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgb(0, 0, 0, 0.2)
+    ),
+    url("../images/background.png");
+
+  color: white;
+  font-family: var(--primary-font);
+  text-align: center;
+  margin: 135px auto;
+  padding: 40px;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.hero h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
