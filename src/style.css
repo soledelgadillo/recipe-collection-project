@@ -3,7 +3,50 @@
   --secondary-font: "Roboto", sans-serif;
   --primary-color: #662eed;
   --accent-color: #272142;
+  --highlight-color: ;
 }
+body {
+  font-family: var(--primary-font);
+  color: var(--accent-color);
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+nav {
+  padding: 40px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 20px;
+}
+
+footer {
+  background: #f9f7fe;
+  color: var(--accent-color);
+  margin-top: 40px;
+  padding: 40px 0;
+}
+
+footer a {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--primary-color);
+}
+
 .hero {
   background-image: linear-gradient(
       to bottom,
@@ -11,12 +54,10 @@
       rgb(0, 0, 0, 0.2)
     ),
     url("../images/background.png");
-
   color: white;
-  font-family: var(--primary-font);
-  text-align: center;
-  margin: 135px auto;
+  margin-bottom: 100px;
   padding: 40px;
+  text-align: center;
 }
 .hero h1 {
   font-weight: 700;
@@ -28,4 +69,12 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 35px;
+}
+
+.home-recipe {
+  margin: 20px 0;
+}
+
+.social-media a {
+  padding: 0 15px;
 }
