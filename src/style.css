@@ -61,12 +61,13 @@ nav li {
 footer {
   background: #f9f7fe;
   color: var(--accent-color);
-  margin-top: 40px;
+  margin-top: 80px;
   padding: 40px 0;
 }
 
 nav li a {
   color: var(--accent-color);
+  transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
@@ -103,6 +104,7 @@ nav li.active a {
 .social-media a {
   padding: 0 15px;
   color: var(--accent-color);
+  transition: all 100ms ease-in-out;
 }
 .social-media a:hover {
   color: var(--primary-color);
@@ -165,4 +167,28 @@ div.step {
 p.step {
   font-size: 18px;
   font-weight: 400;
+}
+.contact-container {
+  margin: 150px;
+}
+.contact {
+  margin-top: 20px;
+}
+.contact-type {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.contact-data {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 30px;
+}
+
+.contact-data a {
+  text-decoration: none;
 }
