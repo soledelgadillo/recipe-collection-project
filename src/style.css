@@ -168,9 +168,6 @@ p.step {
   font-size: 18px;
   font-weight: 400;
 }
-.contact-container {
-  margin: 150px;
-}
 .contact {
   margin-top: 20px;
 }
@@ -191,4 +188,50 @@ p.step {
 
 .contact-data a {
   text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  nav img {
+    max-width: 50px;
+  }
+  footer img {
+    max-width: 90px;
+  }
+  footer .social-media a {
+    padding: 0;
+  }
+  footer div.dev {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+  .hero h5 {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .about p,
+  .about .social-media {
+    text-align: center;
+  }
+  .recipe {
+    margin: 0 auto;
+  }
 }
