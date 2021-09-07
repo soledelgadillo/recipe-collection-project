@@ -19,6 +19,9 @@ h4 {
 nav {
   padding: 40px 0;
 }
+nav a {
+  text-decoration: none;
+}
 
 nav ul {
   margin: 0;
@@ -43,7 +46,12 @@ footer a {
   color: var(--accent-color);
 }
 
-.active {
+nav li a {
+  color: var(--accent-color);
+}
+
+nav a:hover,
+nav li.active a {
   color: var(--primary-color);
 }
 
