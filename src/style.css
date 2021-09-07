@@ -87,9 +87,7 @@ nav li.active a {
   text-align: center;
 }
 
-.hero h3 {
-  font-weight: 700;
-  font-size: 24px;
+.hero h5 {
   line-height: 35px;
   margin: 10px 220px 0 220px;
 }
@@ -126,4 +124,45 @@ nav li.active a {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+}
+.recipe-collection img {
+  display: block;
+  margin: 0 auto;
+}
+.recipe-collection h3 {
+  margin-top: 42px;
+  text-align: left;
+}
+.recipe {
+  margin: 60px 200px;
+}
+
+ul.ingredient {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.instructions {
+  margin-bottom: 20px;
+}
+.ingredient li,
+.instructions {
+  border-width: 0 0 1px 0;
+  border-style: dashed;
+  border-color: #67d5d2;
+}
+.ingredient li {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+div.step {
+  color: #f65282;
+  font-weight: 800;
+  font-size: 18px;
+}
+p.step {
+  font-size: 18px;
+  font-weight: 400;
 }
